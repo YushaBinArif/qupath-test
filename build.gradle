@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+    id 'qupath.extension-conventions'
+}
+
+ext.moduleName = 'qupath.extension.ABMIL'
+archivesBaseName = 'qupath-extension-ABMIL'
+description = "QuPath extension to visualize attention of ABMIL."
+
+configurations {
+    implementation.extendsFrom groovy
+}
+dependencies {
+    implementation project(path: ':qupath-gui-fx')
+    implementation project(path: ':qupath-gui-fx')
+    compileOnly group:'org.projectlombok', name:'lombok', version:'1.16.20'
+    implementation group:'com.github.mygreen', name:'super-csv-annotation', version:'2.2'
+}

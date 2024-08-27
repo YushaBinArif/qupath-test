@@ -1,0 +1,3 @@
+module qupath.extension.ABMIL {
+    provides qupath.lib.gui.extensions.QuPathExtension with qupath.lib.gui.ABMIL.ABMILExtension;
+}

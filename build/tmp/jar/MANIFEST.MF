@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Implementation-Vendor: QuPath developers
+Implementation-Version: 0.4.3
+QuPath-build-time: 2024-08-21, 10:40
+Automatic-Module-Name: io.github.qupath.extension.ABMIL
+
