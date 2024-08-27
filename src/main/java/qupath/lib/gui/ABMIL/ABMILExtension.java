@@ -14,6 +14,8 @@ public class ABMILExtension implements QuPathExtension {
     @Override
     public void installExtension(QuPathGUI qupath) {
 
+
+        //Testing if this will get pulled
         var openNewWindow = ActionTools.createAction(new ABMILExtensionCommand(qupath), "Run ABMIL");
         var showHistogram = ActionTools.createAction(new DisplayHistogramCommand(qupath), "Display Histogram");
         var filterOnSignificance = ActionTools.createAction(new SelectSignificanceLevelExtensionCommand(qupath), "Set P-value Threshold");
